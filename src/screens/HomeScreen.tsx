@@ -10,7 +10,7 @@ const Item = ({launch, onPress}) => {
   );
 };
 
-const HomeScreen = () => {
+const HomeScreen = (navigation) => {
   const DATA = [
     {
       id: 1,
